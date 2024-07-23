@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        float n=s.nextFloat();
+        int n1=s.nextInt();
+        int n2=s.nextInt();
+        int n3=s.nextInt();
+        System.out.println((int)Math.floor(n));
+        System.out.println((int)Math.ceil(n));
+        System.out.println((int)Math.round(n));
+        System.out.println((int)Math.sqrt(n1));
+        System.out.println((int)Math.pow(n2,n3));
+
+
+
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
